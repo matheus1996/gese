@@ -1,0 +1,96 @@
+@charset "UTF-8";
+	
+
+	table#dados
+	{
+		border-color: #2F4F4F;
+		border: 0px solid #2F4F4F; 
+		border-spacing: 0px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+		margin-top: 700px;
+		width: 100%;
+		box-shadow: 0px 0px 4px black;
+		color: #2F4F4F;
+
+	}
+	table#dados tr
+	{
+		border: 1px solid #2F4F4F;
+		text-align: center;
+		font-size: 13pt;
+		padding: 2px;
+	}
+	table#dados td
+	{	
+		border: 1px solid #2F4F4F;
+		text-align: center; 
+		font-size: 13pt;
+		padding: 2px;
+
+	}
+	table#dados tr#titulos
+	{
+		font-size: 14pt;
+		font-weight: bolder;
+		box-shadow: 0px 0px 4px black;
+	}
+
+
+
+
+	table#dadosg
+	{
+
+		border-color: #2F4F4F;
+		border: 0px solid #2F4F4F; 
+		border-spacing: 0px;
+		margin-bottom: 20px;
+		margin-top: 10px;
+		box-shadow: 0px 0px 4px black;
+		color: #2F4F4F;
+
+	}
+	table#dadosg tr
+	{
+		border: 1px solid #2F4F4F;
+		text-align: center;
+		font-size: 13pt;
+		padding: 5px;
+
+	}
+	table#dadosg td
+	{	
+
+		border: 1px solid #2F4F4F;
+		text-align: center; 
+		font-size: 13pt;
+		padding: 5px;
+
+	}
+	table#dadosg tr#titulos
+	{
+		font-size: 14pt;
+		font-weight: bolder;
+		box-shadow: 0px 0px 4px black;
+	}
+
+
+
+	#conteudo-left
+	{
+	width:auto;
+	height:auto;
+	float:left;
+	margin-right: 0px;
+	}
+#conteudo-right
+	{
+	width:940px;
+	height:300px;
+	float:right;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 60px;
+	}

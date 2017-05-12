@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+	ul#docentes
+	{
+		margin-left: 25px;
+		padding: 20px;
+		overflow: hidden;
+		list-style: none;
+	}
+	ul#docentes li
+	{
+		float: left;
+		width: 150px;
+		height: 175px;
+		margin: 30px;
+		margin-right: 145px;
+		border: 5px solid #ffffff;
+		background-color: #ffffff;
+		box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+	}
+	ul#docentes li span
+	{
+		position: relative;
+		left: 165px;
+		color: black;
+		text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+		font-size: 12pt;
+		text-decoration: none;
+	}
+	a#res
+	{
+		text-decoration: none;
+	}
+	ul#docentes li a#links
+	{
+		position: relative;
+		top: 50px;
+		left: 165px;
+		color: black;
+		text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+		font-size: 10pt;
+		text-decoration: none;
+	}
+	ul#docentes li a#links:hover  
+	{
+		font-size: 11pt;
+		text-shadow: 1px 1px 2px #2F4F4F;
+		text-decoration: underline; 
+	}
+	ul#docentes li span:hover
+	{
+		text-decoration: underline; 
+		text-shadow: 1px 1px 2px black;
+	}
+	ul#docentes li:hover
+	{
+		box-shadow: 1px 1px 2px black;
+	}
+	ul#docentes li:hover span
+	{
+		text-shadow: 1px 1px 1px black;
+	}
+
+
+	ul#docentes li#foto01
+	{
+	 	background: url('../_imgs/_pesquisadores/DanielTenfen.png') no-repeat;
+	}
+	ul#docentes li#foto02
+	{
+		background: url('../_imgs/_pesquisadores/EdisonAntonioCardosoAranhaNeto.png') no-repeat;
+	}
+	ul#docentes li#foto03
+	{
+		background: url('../_imgs/_pesquisadores/EverthonTaghoriSica.png') no-repeat;
+	}
+	ul#docentes li#foto04
+	{
+		background: url('../_imgs/_pesquisadores/FabricioYutakaKuwabataTakigawa.png') no-repeat;
+	}
+	ul#docentes li#foto05
+	{
+		background: url('../_imgs/_pesquisadores/MuriloReolonScuzziato.png') no-repeat;
+	}
+	ul#docentes li#foto06
+	{
+		background: url('../_imgs/_pesquisadores/RafaelNilsonRodrigues.png') no-repeat;
+	}
+	ul#docentes li#foto07
+	{
+		background: url('../_imgs/_pesquisadores/RicardoLuizAlves.png') no-repeat;
+	}
+	ul#docentes li#foto08
+	{
+		background: url('../_imgs/_pesquisadores/RubipiaraCavalcanteFernandes.png') no-repeat;
+	}	
+	ul#docentes li#foto09
+	{
+		background: url('../_imgs/_pesquisadores/SergioLucianoAvila.png') no-repeat;
+	}
+
+
+
+
+	ul#docentes li#foto10
+	{
+		background: url('../_imgs/_pesquisadores/semfoto.png') no-repeat;
+	}
+	ul#docentes li#foto11
+	{
+		background: url('../_imgs/_pesquisadores/BrunoMateus.png') no-repeat;
+	}
+	ul#docentes li#foto12
+	{
+		background: url('../_imgs/_pesquisadores/DouglasPereira.png') no-repeat;
+	}
+	ul#docentes li#foto13
+	{
+		background: url('../_imgs/_pesquisadores/Gilberto.png') no-repeat;
+	}
+	ul#docentes li#foto14
+	{
+		background: url('../_imgs/_pesquisadores/GuilhermeLucas.png') no-repeat;
+	}
+	ul#docentes li#foto15
+	{
+		background: url('../_imgs/_pesquisadores/Leocardia.png') no-repeat;
+	}
+	ul#docentes li#foto16
+	{
+		background: url('../_imgs/_pesquisadores/MatheusNascimento.png') no-repeat;
+	}
+	ul#docentes li#foto17
+	{
+		background: url('../_imgs/_pesquisadores/semfoto.png') no-repeat;
+	}
+	ul#docentes li#foto18
+	{
+		background: url('../_imgs/_pesquisadores/Neimar.png') no-repeat;
+	}
+	ul#docentes li#foto19
+	{
+		background: url('../_imgs/_pesquisadores/RodrikAraujo.png') no-repeat;
+	}
+	ul#docentes li#foto20
+	{
+		background: url('../_imgs/_pesquisadores/WilliamRobert.png') no-repeat;
+	}
+
+iframe#frameresumo
+{
+	width: 1000px;
+	height: 470px;
+	margin: 40px;
+	position: relative;
+	left: 25px;
+	top: 0px;
+	border-style: none;
+}
+iframe#frameresumo::-webkit-scrollbar
+{
+	display: none;
+}
+a#topo
+{
+	position: relative;
+	left: 530px;
+	top: 0px;
+	text-decoration: none;
+	background-color: #2F4F4F;
+	box-shadow: 1px 1px 1px black;
+	padding: 3px;
+	color: white;
+	text-shadow: 1px 1px 1px black;
+	font-size: 16pt;
+}

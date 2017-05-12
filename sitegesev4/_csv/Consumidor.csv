@@ -1,0 +1,8 @@
+DATA;DCP;DCFP;DMP;DMFP;CP;CFP;/;Sigla;Significado;Medida
+;;;;;;;;DATA;Data;[Mes/Ano]
+;;;;;;;;DCP;Demanda Contratada na Ponta;[kW]
+;;;;;;;;DCFP;Demanda Contratada Fora da Ponta;[kW]
+;;;;;;;;DMP;Demanda Medida na Ponta;[kW]
+;;;;;;;;DMFP;Demanda Medida Fora da Ponta;[kW]
+;;;;;;;;CP;Consumo na Ponta;[kWh]
+;;;;;;;;CFP;Consumo Fora da Ponta;[kWh]

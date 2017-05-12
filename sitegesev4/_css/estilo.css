@@ -1,0 +1,252 @@
+@charset "UTF-8";
+	
+
+	@font-face		
+	{
+		font-family: 'Playfair Display SC';
+		src: url("../_fonts/PlayfairDisplaySC-Regular.ttf");
+	}
+	body
+	{
+		background-color: #2F4F4F;
+		color: rgba(0,0,0,1);
+		font-family: 'Playfair Display SC', serif;
+		font-weight: bold;
+	}
+	img#bandeira-pt
+	{
+		position: relative;
+		top: -336px;
+		left: 867px;
+	}
+	img#bandeira-eng
+	{
+		position: relative;
+		top: -336px;
+		left: 863px;
+	}
+	map#mapa-logos
+	{
+    	display: inline;
+	}
+	div#interface 
+	{
+		width: 1100px;
+		background-color: #ffffff;
+		margin: -10px auto 0px auto;
+		box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+		padding: 10px 10px 10px 10px;
+	}
+	p
+	{
+		text-align: justify;
+		text-indent: 25px;
+		font-weight: bold;
+	}
+	/*------------- formataçao do cabeçalho ---------*/
+	header#top img#logo-ifsc
+	{
+		position: relative;
+		top: 168px;
+		left: 9px;
+		padding: 3px;
+	}
+	header#top img#logo-gese
+	{
+		position: relative;
+		top: -145px;
+		left: 907px;
+		padding-top: 3px;
+		padding-left: 3px;
+		padding-bottom: 3px;
+		padding-right: 0px;
+	}
+	img#logo-ifsc:hover
+	{
+		box-shadow: 1px 1px 5px black;
+		background-color: #2F4F4F;
+	}
+	img#logo-gese:hover
+	{
+		box-shadow: 1px 1px 5px black;
+		background-color: #2F4F4F;
+	}
+	header#top
+	{
+		margin-top: -150px;
+		clear: both;
+		border-bottom: 2px solid #2F4F4F;
+	}
+	header#top h1#titulo
+	{
+		font-size: 23pt;
+		color: #2F4F4F; 
+		text-align: center;
+		text-shadow: 1px 1px 1px #2F4F4F;
+	}
+	/*------------- formataçao do menu ---------*/
+	nav#menu
+	{
+		display: block;
+		font-weight: bold;
+	}
+	nav#menu ul
+	{
+		list-style: none;
+		text-transform: uppercase;
+		margin-top: -150px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+	nav#menu li
+	{
+		border: 0px solid white;
+		box-shadow: 0px 0px 4px black;
+		display: inline-block;
+		background-color: #dddddd;
+		padding: 10px;
+		margin: 20px;
+		transition: background-color 0.5s;
+	}
+	nav#menu li:hover
+	{
+		background-color: #2F4F4F;
+	}
+
+	nav#menu a
+	{
+		color: black;
+		text-decoration: none;		
+	}
+	nav#menu a:hover
+	{
+		color: white;
+	}
+	/*------------- formataçao do corpo ---------*/
+	article#mid h1
+	{
+		font-weight: bold;
+		background-color: #2F4F4F;
+		box-shadow: 1px 1px 1px black;
+		padding: 2px;
+		padding-left: 20px;
+		color: white;
+		text-align: left;
+		text-shadow: 1px 1px 1px black;
+		font-size: 20pt;
+		margin: 30px 50px -20px 50px;
+	}
+	article#mid p
+	{
+		color:black;
+		font-size: 12pt;
+		margin: 30px 80px 30px 80px; 
+	}
+	table#tabela1, table#tabela2
+	{
+		border: 1px solid white; 
+		border-spacing: 0px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10px;
+		margin-top: 40px;
+		font-size: 13pt;
+	}
+	table#tabelalink
+	{
+		border: 1px solid white; 
+		border-spacing: 0px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+		margin-top: 40px;
+		font-size: 13pt;
+	}
+	table#tabela
+	{
+		border: 1px solid white; 
+		border-spacing: 0px;
+		font-size: 13pt;
+	}
+	table#tabela1 td, table#tabelalink td
+	{
+		border: 1px solid white;
+		padding: 5px;
+		vertical-align: top;
+	}
+	table#tabela1 td.ce, table#tabelalink td.ce
+	{
+		font-weight: bolder;
+		color: white;
+		background-color: rgba(47,79,79,0.8);
+		text-align: left;
+		text-shadow: 1px 1px 1px black;
+	}
+	table#tabela1 td.cd, table#tabelalink td.cd
+	{
+		background-color: rgba(47,79,79,0.8);
+		text-align: left;
+	}
+	table#tabela2 td
+	{
+		border: 1px solid white;
+		padding: 5px;
+		vertical-align: top;
+	}
+	table#tabela2 td.ce
+	{
+		font-weight: bold;
+		color: white;
+		background-color: rgba(47,79,79,0.8);
+		text-align: left;
+		text-shadow: 1px 1px 1px black;
+	}
+	table#tabela2 td.cd
+	{
+		background-color: rgba(47,79,79,0.8);
+		text-align: center;
+	}
+	
+	table#tabelalink a
+	{
+		color: white;
+		text-decoration: none;	
+	}
+	table#tabelalink a:hover
+	{
+		text-decoration: underline;	
+	}
+	/*------------- formataçao rodapé ---------*/
+	footer#bot
+	{
+		clear: both;
+		border-top: 2px solid #2F4F4F;
+		background: url("../_imgs/logo_gese_bot.png") 20px 0px;
+	}
+	footer#bot p
+	{
+		text-align: center;
+		font-size: 12pt;
+		color: rgba(0,0,0,0.6);
+	}
+	footer#bot a
+	{
+		text-align: center;
+		font-size: 12pt;
+		color: rgba(0,0,0,0.6);
+		text-decoration: none;
+	}
+	footer#bot p a:hover
+	{
+		color: #2F4F4F;
+		text-decoration: underline;
+	}
+	div#php
+	{
+		margin-top: -20px;
+		margin-bottom: 10px;
+		text-align: center;
+		font-size: 15pt;
+		color: rgba(0,0,0,0.6);
+	}
